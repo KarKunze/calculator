@@ -37,4 +37,5 @@ body {
   background-attachment: fixed;
   background-position: center bottom right;
   background-size: cover;
+  min-height: 100%
 }
