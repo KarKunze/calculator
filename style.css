@@ -1,0 +1,40 @@
+.container-fluid {
+  background-color: #696969;
+  margin-top: 20px;
+  width: 300px;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 20px 15px rgba(0, 0, 0, 0.3), 0 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* .container-fluid {
+  box-sizing: 300px;
+} */
+
+.display{
+  height: 50px;
+}
+
+.form-control {
+  text-align: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.btn {
+  margin-bottom: 10px;
+  margin-left: 2px;
+  margin-right: 2px;
+  height: 50px;
+  width: 60px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+ }
+
+body {
+  background-image: url("images/deskbrown.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center bottom right;
+  background-size: cover;
+}

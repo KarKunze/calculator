@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <div class="container-fluid" id="calculator-body">
+
+    <div class="row-fluid">
+      <div>
+        <div class="form-control form-control-lg display" id="display" placeholder="0">
+        </div>
+      </div>
+
+      <div class="row-fluid calculator_keys text-center">
+        <button class="btn btn-info btn-lg key func" value="&sup2;">x<sup>y</sup></button>
+        <button class="btn btn-info btn-lg key func" value="&radic;">&radic;</button>
+        <button class="btn btn-info btn-lg key func" value="%">%</button>
+        <button class="btn btn-info btn-lg key func" value="AC">AC</button>
+      </div>
+
+      <div class="row-fluid calculator_keys text-center">
+        <button class="btn btn-light btn-lg key numeric" value="7">7</button>
+        <button class="btn btn-light btn-lg key numeric" value="8">8</button>
+        <button class="btn btn-light btn-lg key numeric" value="9">9</button>
+        <button class="btn btn-info btn-lg key func" value="/">&divide;</button>
+      </div>
+
+      <div class="row-fluid calculator_keys text-center">
+        <button class="btn btn-light btn-lg key numeric" value="4">4</button>
+        <button class="btn btn-light btn-lg key numeric" value="5">5</button>
+        <button class="btn btn-light btn-lg key numeric" value="6">6</button>
+        <button class="btn btn-info btn-lg key func" id="X" value="*">&times;</button>
+      </div>
+
+      <div class="row-fluid calculator_keys text-center">
+        <button class="btn btn-light btn-lg key numeric" value="1">1</button>
+        <button class="btn btn-light btn-lg key numeric" value="2">2</button>
+        <button class="btn btn-light btn-lg key numeric" value="3">3</button>
+        <button class="btn btn-info btn-lg key func" value="-">-</button>
+      </div>
+
+      <div class="row-fluid calculator_keys text-center">
+        </button>
+        <button class="btn btn-light btn-lg key numeric" value="0">0</button>
+        <button class="btn btn-light btn-lg key numeric" value=".">.</button>
+        <button class="btn btn-light btn-lg key func" value="=">=</button>
+        <button class="btn btn-info btn-lg key func" value="+">+</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
